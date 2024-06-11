@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="container1">
+        <div id="resultado"></div>
+        <div class="container3">
+            <div class="container3.0">
+            <td><button onclick="clean()">C</button>
+            <td><button onclick="back()" >&larr;</button>
+            <td><button onclick="insert('/')">&divide;</button>
+            <td><button onclick="insert('*')">&times;</button>
+            </div>
+
+            <div class="container31">
+                <td><button onclick="insert('7')">7</button></td>
+                <td><button onclick="insert('8')">8</button></td>
+                <td><button onclick="insert('9')">9</button></td>
+                <td><button onclick="insert('-')">&minus;</button></td>
+            </div>
+
+            <div class="container32">
+                <td><button onclick="insert('4')">4</button></td>
+                <td><button onclick="insert('5')">5</button></td>
+                <td><button onclick="insert('6')">6</button></td>
+                <td><button onclick="insert('+')">&plus;</button></td>
+            </div>
+
+            <div class="container33">
+                <td><button onclick="insert('1')">1</button></td>
+                <td><button onclick="insert('2')">2</button></td>
+                <td><button onclick="insert('3')">3</button></td>
+                <td><button onclick="calcular()" class="igual">&equals;</button></td>
+            </div>
+
+            <div class="container34">
+            <td><button onclick="insert('0')" class="zero" >0</button></td>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
