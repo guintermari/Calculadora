@@ -1,6 +1,6 @@
-#﻿# Calculadora
+ Calculadora
 
-##Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 ° HTML5: Estruturação da página.
 
